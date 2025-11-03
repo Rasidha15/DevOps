@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Pull Code') {
             steps {
-                git 'https://github.com/<your-username>/simple-webapp.git'
+                git 'https://github.com/Rasidha15/DevOps.git'
             }
         }
         stage('Build Docker Image') {
@@ -22,3 +22,4 @@ pipeline {
         }
     }
 }
+

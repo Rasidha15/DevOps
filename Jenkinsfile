@@ -16,11 +16,12 @@ pipeline {
         stage('Run Container') {
             steps {
                 echo "🚀 Running Docker container..."
-                sh 'docker run -d -p 8080:80 my-simple-webapp'
+                sh 'docker run -d -p 9090:80 my-simple-webapp'
             }
         }
     }
 }
+
 
 
 
